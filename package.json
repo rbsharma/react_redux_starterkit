@@ -4,7 +4,8 @@
   "description": "This can be used as a starter kit for any React/Redux project.",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "test": "karma start"
   },
   "author": "Vinay Gosain",
   "devDependencies": {
@@ -25,6 +26,12 @@
     "eslint-plugin-react": "7.0.1",
     "eslint-plugin-switch-case": "^1.1.2",
     "eslint-plugin-xo": "^1.0.0",
+    "jasmine-core": "^2.6.4",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-webpack": "^2.0.4",
     "style-loader": "^0.18.2",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
